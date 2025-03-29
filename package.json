@@ -1,0 +1,20 @@
+{
+  "name": "projet_cicd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test -handler":"jest --detectOpenHandles",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "supertest": "^7.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
