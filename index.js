@@ -55,7 +55,7 @@ app.get("/c/w", (req, res)=>{
     if (from === "Kilograms" && to === "Pounds"){
         result = val * 2.20462
     } else if (from === "Pounds" && to === "Kilograms"){
-        result = val / 2.30462
+        result = val / 2.40462
     } else {
         return res.status(400).send("invalid convertion")
     }
